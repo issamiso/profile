@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="style/fonts-6/css/all.css">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="style/style.js"></script>
+    <title>1BG+</title>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="style/img/logo.png" alt="">
+            </a>
+        </div>
+        <div class="nav">
+            <a href="#">Home</a>
+            <a onclick="showLoginForm();">Login</a>
+            <a onclick="showSignupForm();">Signup</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+
+        </div>
+        <div class="navforphone">
+            <i class="fa-solid fa-bars" id="itagr" onclick="navBarOpt();"></i>
+        </div>
+        
+    </header>
+    <div class="navphonehid" id="navphonexx">
+        <a href="#">Home</a>
+        <a onclick="showLoginForm();">Login</a>
+        <a onclick="showSignupForm();">Signup</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+    <main>
+        <section class="all">
+            <section class="up">
+                <h1>عيش ال 1 جيغا بالألفين </h1>
+                <div class="btn">
+                    <a href="#">عدي 1 جيغا</a>
+                </div>
+            </section>
+            <section class="video" >
+                
+                <video id="myVideo"  controls width="100%" height="100%">
+                    <source src="style/video/Picture-in-Picture 2024-04-04 04-52-07.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </section>
+            <script>
+             
+                const video = document.getElementById('myVideo');
+        
+            
+                video.play();
+        
+    
+                setTimeout(function() {
+                    video.pause();
+                }, 2000);
+            </script>
+
+
+            <section class="who">
+                <h1>من نحن</h1>
+                <h3>نحن مجموعة مختصة نسعى جاهدا لتوفير الأنترنات بأسوام معقولة لجميع الطلاب في كامل تراب الجمهورية “مرحبا بيكم”</h3>
+            </section>
+
+            <section class="service">
+                <div>
+                    <a href="#">طلب خدمة</a>
+                </div>
+                <div>
+                    <a href="#">اضاف خدماتك</a>
+                </div>
+            </section>
+
+            <section class="myservice">
+                <h1 class="hy">لماذا تختارنا نحن</h1>
+                <section class="love" >
+                    <div>
+                        <h1><i class="fa-solid fa-trophy"></i></h1>
+                        <h2>سرعة عالية وجودة فائقة</h2>
+                        <p>
+                            نحن نقدم خدمات بجودة عالية، حيث نسعى دائمًا إلى تحقيق أعلى مستويات الجودة في كل ما نقدمه. كما نتفرد بتسريع عملية تقديم الخدمات بشكل تلقائي، مما يضمن لك الحصول على النتائج بسرعة وفعالية دون الحاجة إلى أي تدخل منك.
+                        </p>
+                    </div>
+                    <div>
+                        <h1><i class="fa-solid fa-user-tie"></i></h1>
+                        <h2>فريق الدعم</h2>
+                        <p>
+                            نحن نمتلك أفضل فريق دعم متخصص ليساعدك ويجيب على استفساراتك ويحل مشاكلك بكل فعالية وسرعة. نحن نفتخر بأننا لا نقدم استجابات آلية مثلما يفعل معظم المنافسين، بل نحن هنا لنقدم لك دعمًا شخصيًا ومتميزًا يلبي احتياجاتك بشكل مباشر وفوري.
+    
+                        </p>
+                    </div>
+                    <div>
+                        <h1><i class="fa-solid fa-lock"></i></h1>
+                        <h2>الامان</h2>
+                        <p>
+                            نحن نلتزم بضمان وصول الخدمة بشكل مستمر وموثوق، حيث نعمل بجد لضمان استمرارية توفير الخدمات لعملائنا دون انقطاع. نحن نستثمر في بنية تحتية قوية وموثوقة، ونتبع أفضل الممارسات والتقنيات لضمان أعلى مستويات الأداء والموثوقية. بالإضافة إلى ذلك، فإننا نوفر آليات احتياطية وخطط استعداد للطوارئ للتعامل مع أي مواقف غير متوقعة تؤثر على وصول الخدمة، مما يضمن استمرارية عملياتك بكفاءة وسلاسة.
+                        </p>
+                    </div>
+                    <div>
+                        <h1><i class="fa-solid fa-cart-shopping"></i></h1>
+                        <h2>الخدمات</h2>
+                        <p>
+                            نحن نقدم مجموعة متنوعة من الخدمات، بما في ذلك خدمات مجانية ومدفوعة، لتلبية احتياجات عملائنا بشكل شامل. تتضمن خدماتنا المجانية عادة عروض تجريبية وميزات أساسية، في حين توفر الخدمات المدفوعة مزايا إضافية ودعمًا متقدمًا. نحن نسعى دائمًا لتقديم قيمة مضافة وتجربة مميزة لعملائنا، مما يتيح لهم الاختيار المناسب وفقًا لاحتياجاتهم وميزانياتهم.
+                        </p>
+                    </div>
+                </section>
+            </section>
+
+            <section class="showservice-s">
+                <h1>منتجات</h1>
+                <h3 class="h3">هذه بضع من المنتجات التي يمكنك طلبها من منصتنا ويكون التوصيل إلى باب منزلك مع الدفع عند الإستلام</h3>
+                <div class="pro">
+                    <div>
+                        <img src="upload/pro/Capture-decran-2024-02-14-214703.png" alt="">
+                        <h3>Pro Name ..</h3>
+                        <a href="#">82 DT</a>
+                    </div>
+                    <div>
+                        <img src="upload/pro/Capture-decran-2024-02-14-221312.png" alt="">
+                        <h3>LED jellyfish</h3>
+                        <a href="#">82 DT</a>
+                    </div>
+                    <div>
+                        <img src="upload/pro/Capture-decran-2024-02-14-221753.png" alt="">
+                        <h3>Pro name</h3>
+                        <a href="#">82 DT</a>
+                    </div>
+                    <div>
+                        <img src="upload/pro/Capture-decran-2024-02-15-210507.png" alt="">
+                        <h3>Pro Name</h3>
+                        <a href="#">82 DT</a>
+                    </div>
+                    <div>
+                        <img src="upload/pro/Capture-decran-2024-02-14-214703.png" alt="">
+                        <h3>Pro Name ..</h3>
+                        <a href="#">82 DT</a>
+                    </div>
+                    <div>
+                        <img src="upload/pro/Capture-decran-2024-02-14-221312.png" alt="">
+                        <h3>LED jellyfish</h3>
+                        <a href="#">82 DT</a>
+                    </div>
+                    <div>
+                        <img src="upload/pro/Capture-decran-2024-02-14-221753.png" alt="">
+                        <h3>Pro name</h3>
+                        <a href="#">82 DT</a>
+                    </div>
+                    <div>
+                        <img src="upload/pro/Capture-decran-2024-02-15-210507.png" alt="">
+                        <h3>Pro Name</h3>
+                        <a href="#">82 DT</a>
+                    </div>
+                    <div>
+                        <img src="upload/pro/Capture-decran-2024-02-14-221312.png" alt="">
+                        <h3>LED jellyfish</h3>
+                        <a href="#">82 DT</a>
+                    </div>
+                    <div>
+                        <img src="upload/pro/Capture-decran-2024-02-14-221753.png" alt="">
+                        <h3>Pro name</h3>
+                        <a href="#">82 DT</a>
+                    </div>
+                    <div>
+                        <img src="upload/pro/Capture-decran-2024-02-15-210507.png" alt="">
+                        <h3>Pro Name</h3>
+                        <a href="#">82 DT</a>
+                    </div>
+                    
+                </div>
+            </section>
+            <section class="rev">
+                <h1>مراجعات</h1>
+                <h3>هنا تجد التعليقات التي أعجبتنا من حرفائنا الكرم</h3>
+                <div class="pip">
+                    <div class="stars">
+                        <div><p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p></div>
+                        <div><p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p></div>
+                        <div><p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p></div>
+                    </div>
+                    <div class="text">
+                        <div>
+                            <p>good job bro , great work , 1 go b 2 dinar hkeya tayara ethi.</p>
+                        </div>
+                        <div>
+                            <p>good job bro , great work , 1 go b 2 dinar hkeya tayara ethi.</p>
+                        </div>
+                        <div>
+                            <p>good job bro , great work , 1 go b 2 dinar hkeya tayara ethi.</p>
+                        </div>
+                    </div>
+                    <div class="per">
+                        <div>
+                            <img src="upload/pro/Capture-decran-2024-02-29-104057.png" alt="">
+                            <p>Ahame Lorem, ipsum.</p>
+                        </div>
+                        <div>
+                            <img src="upload/pro/Capture-decran-2024-02-29-104057.png" alt="">
+                            <p>Ahame Lorem, ipsum.</p>
+                        </div>
+                        <div>
+                            <img src="upload/pro/Capture-decran-2024-02-29-104057.png" alt="">
+                            <p>Ahame Lorem, ipsum.</p>
+                        </div>
+                    
+                    
+                    
+                    </div>
+                </div>
+                <div class="addcomment">
+                    <form method="POST">
+                        <h2>اضف تعليق</h2>
+                        <label for="name">اسمك</label>
+                        <input type="text" name="name" placeholder="اكتب هنا">
+                        <label for="comment">اكتب تعليق</label>
+                        <textarea name="comment" id="" cols="30" rows="2"></textarea>
+                        <button type="submit">ارسال</button>
+                    </form>
+                </div>
+            </section>
+            <div class="blur" id="blur">
+                <div>    
+                </div>
+            </div>
+            <section class="login-form" id="login-form" dir="rtl">
+            
+                <div class="login">
+                    
+                    <h2>تسجيل الدخول</h2>
+                    <form method="POST">
+                        <p class="x" onclick="hiddenLoginForm();"><i class="fa-solid fa-xmark"></i></p>
+                        <label for="username">اسم المستخدم</label>
+                        <input type="text" placeholder="اكتب هنا" name="username">
+                        <label for="password">كلمة السر</label>
+                        <input type="password" name="password" placeholder="اكتب هنا">
+                        <p class="error">اسم المستخدم او كلمة السر خطاء</p>
+                        <button type="submit">تسجيل الدخول</button>
+                        <span>
+                            <p onclick="hidlogform();showSignupForm()">انشاء حساب جديد</p>
+                            <p onclick="gotol('forgetpassword')">نسيت كلمة السر</p>
+                        </span>
+                    </form>
+                </div>
+            </section>
+
+
+
+
+            <!--Sign Up Section-->
+            <section class="login-form signup" id="signup-form" dir="rtl">
+                <div class="login signup-form">
+                    <h2> انشاء حساب</h2>
+                    <form method="POST">
+                        <p class="x" onclick="hiddenSignupForm();"><i class="fa-solid fa-xmark"></i></p>
+                        <label for="username">اسم المستخدم</label>
+                        <input type="text" placeholder="اكتب هنا" name="username">
+                        <label for="email">البريد الاكتروني</label>
+                        <input type="email" placeholder="اكتب هنا" name="email">
+                        <label for="password">كلمة السر</label>
+                        <input type="password" name="password" placeholder="اكتب هنا">
+                        <label for="re-password">تاكيد كلمة السر</label>
+                        <input type="password" name="re-password" placeholder="اكتب هنا">
+                        <p class="error">الحساب مسجل بلفعل</p>
+                        <button type="submit">تسجيل الدخول</button>
+                        <span>
+                            <p onclick="hidsigform();showLoginForm();">لديك حساب بلفعل</p>
+                            <p onclick="gotol('forgetpassword')">نسيت كلمة السر</p>
+                        </span>
+                    </form>
+                </div>
+            </section>
+
+        </section>
+    </main>
+    <footer>
+       <div>
+        <section class="fot">
+            
+            <h1>Web Site Name</h1>
+            
+        </section>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, minima et, laborum aspernatur reprehenderit nam ipsa id officiis accusamus tempora soluta architecto beatae consequuntur eius asperiores iusto voluptate! Sequi, expedita!</p>
+       </div>
+       <div>
+        <h1>Service</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores odio natus impedit suscipit eaque tenetur quis molestiae officiis quo, laudantium quos exercitationem nostrum iste magni, cumque nam maxime. Culpa, perspiciatis.</p>
+       </div>
+       <div class="end">
+        <h1>Abute</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nobis eum cum quod nesciunt dolorem laudantium necessitatibus incidunt natus eius! Ipsa omnis consequatur nisi laborum autem sapiente obcaecati molestias sit.</p>
+        <section class="abutes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        </section>
+    </div>
+
+    </footer>
+    <div class="copyright">
+        <p>&copy; 2024 all rights reserved</p>
+    </div>
+
+    
+</body>
+</html>
