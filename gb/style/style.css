@@ -1,0 +1,880 @@
+@font-face {
+    font-family: 'Tajawal';
+    src: url('Tajawal/Tajawal-Medium.ttf'); 
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Tajawal', -apple-system, BlinkMacSystemFont, 'Tajawal', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    transition: 0.3s ;
+}
+body{
+    background-color: #151515;
+    background-image: url(img/agaqegz4rr2zwokg.png);
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+
+  
+}
+header{
+  
+    background-color: #151515c2;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+.logo {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.logo img {
+    width: 70px;
+    cursor: pointer;
+}
+.logo a{
+    text-decoration: none;
+}
+.nav {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.nav a{
+    text-decoration: none;
+    padding-right: 7px;
+    padding-left: 7px;
+    margin-right: 7px;
+    margin-left: 7px;
+    color: rgb(164, 162, 162);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.nav a:hover{
+    color: white;
+    border-bottom: 2px solid green;
+}
+.all{
+    width: 80%;
+    
+    margin: auto;
+    margin-top: 50px;
+}
+.up h1{
+   
+    text-align: center;
+    padding: 10px;
+    font-size: 35px;
+    
+}
+.btn{
+    margin-top: 20px;
+}
+.btn a{
+    display: flex;
+    width: 130px;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+.btn a:hover{
+    background-color: orangered;
+    border: none;
+    border: 1px solid rgba(128, 128, 128, 0);
+}
+.video{
+    
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    
+    width: 900px;
+    
+    margin: auto ;
+    margin-top: 50px;
+  
+    
+}
+.who{
+    margin-top: 50px;
+}
+.who h1{
+    text-align: center;
+    font-size: 45px;
+ 
+    width: 170px;
+    text-align: center;
+    border-bottom: 2px solid orangered ;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.who h3{
+    padding: 10px;
+    text-align: right;
+    width: 500px;
+    margin: auto;
+}
+.service{
+   
+    display: flex;
+    width: 500px;
+    margin: auto;
+
+}
+.service div {
+    
+    width: 400px;
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+  
+    
+}
+.service div a{
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    width: 170px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 2px;
+}
+.service div a:hover{
+    background: linear-gradient(to right,orangered,red);
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+.myservice{
+    margin-top: 50px;
+}
+.myservice h1{
+    font-size: 45px;
+    text-align: center;
+    width: 330px;
+    margin: auto;
+ 
+}
+
+.love div{
+    
+    width: 300Px;
+    padding: 7px;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    min-width: 300px;
+    background-color: #171a1c;
+    height: 300px;
+}
+.love div h2{
+    text-align: center;
+
+}
+.love div h1{
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    text-align: center;
+    border: none;
+    width: unset;
+}
+.love div i{
+    color: blue;
+}
+.love div p{
+    color: gray;
+    font-size: 14px;
+    padding: 15px;
+    text-align: right;
+}
+.love div:hover{
+    transition: 0.3s ;
+    transform: scale(1.1);
+}
+.love{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.love div{
+    margin: 10px;
+    height: 400px;
+}
+.company {
+    display: flex;
+}
+.company div{
+    width: 100%;
+    margin:10px;
+}
+.image{
+   
+    width: 100%;
+    height: 350px;
+}
+.company {
+    margin-top: 70px;
+}
+.company div h3{  
+    font-size: 25px;
+    width: 80px;
+    text-align: center;
+    border-bottom: 2px solid green;
+   
+    margin-right: 20px;
+}
+.company div p {
+    word-spacing: 6px;
+    padding: 20px;
+}
+.hy{
+    margin-bottom: 30px !important;
+    background-color: #0d0d0dd6;
+}
+.all{
+    width: unset !important;
+}
+
+
+
+
+
+
+.showservice-s{
+    margin-top: 50px;
+    
+
+}
+
+.showservice-s h1{
+    font-size: 40px;
+    
+    width: 230px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px !important;
+    border-bottom:1px groove orangered;
+}
+
+.h3{
+    font-size: 18px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    padding: 8px;
+}
+.pro img{
+    width: 100%;
+    height: 150px;
+    border-radius: 7px;
+    
+}
+.pro div {
+  width: 200px;
+
+  border-radius: 25px 20px 15px 10px;
+  overflow: hidden;
+  background-color: #171a1c;
+ 
+  margin: 10px;
+}
+.pro {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+.pro div h3{
+    font-size: 19px;
+    text-align: center;
+    
+ 
+}
+.pro div a{
+    display: flex;
+    padding: 7px;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-top: 3px;
+    background-color: rgb(1, 68, 1);
+}
+.pro div a:hover{
+    background-color: rgb(9, 202, 9);
+}
+.rev h1{
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+    width: 160px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid orangered;
+}
+.rev{
+    margin-top: 30px;
+    background-color: #0c0c0c;
+    padding: 10px;
+}
+.rev h3{
+    width: 350px;
+    margin: auto;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.stars {
+    display: flex;
+    justify-content: center;
+}
+.stars div{
+    padding: 7px;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-align: right;
+}
+
+.stars i {
+    color: rgb(255, 196, 0);
+    margin: 5px;
+    
+}
+.stars div p {
+    
+    text-align: left !important;
+}
+.per img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.per div{
+    display: flex;
+
+    width: 300px;
+    padding: 7px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.per p{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 7px;
+    font-size: 19px;
+}
+.text {
+    display: flex;
+    justify-content: center;
+}
+.text div{
+
+    width: 300px;
+    padding: 7px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.stars div{
+
+    width: 300px;
+    text-align: center;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.per{
+    display: flex;
+    justify-content: center;
+}
+.rev{
+     padding-bottom: 40px;
+    padding-top: 40px;
+}
+.pip{
+    margin-top: 20px;
+   
+}
+.addcomment form label{
+    display: flex;
+    text-align: right !important;
+    width: 300px;
+    margin: auto;
+    padding: 9px;
+    justify-content: right;
+    font-size: 19px;
+}
+.addcomment form {
+    width: 500px;
+    margin: auto;
+    margin-top: 40px;
+}
+.addcomment form input{
+    padding: 8px;
+    border: none;
+    outline: none;
+    background-color: #151515;
+    width: 300px;
+    margin: auto;
+    display: flex;
+    text-align: right;
+    font-size: 16px;
+}
+.addcomment form textarea{
+    width: 300px;
+    margin: auto;
+    display: flex;
+    background-color: #151515;
+    outline: none;
+    border: none;
+    padding: 6px;
+}
+.addcomment form button{
+    padding: 7px;
+    width: 312px;
+    background-color: blue;
+    border: none;
+    display: flex;
+    margin: auto;
+    margin-top: 15px;
+    justify-content: center;
+}
+.addcomment h2{
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.login{
+    
+    padding-top: 150px;
+}
+.login form input{
+    display: flex;
+    border: none;
+    background-color:#191e21 ;
+    padding: 7px;
+    outline: none;
+    
+}
+.login form label{
+    display: flex;
+}
+.login h2{
+    text-align: center;
+    
+    width: 230px;
+    border-bottom: 2px solid orangered;
+    margin: auto;
+    padding: 0;
+    font-size: 35px;
+}
+
+.one div{
+    width: 100%;
+}
+
+.login form label{
+
+    width: 300px;
+    margin: auto;
+    padding: 7px;
+    padding-top: 20px;
+}
+.login form input{
+    width: 300px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 5px;
+}
+.login button{
+    background-color: blue;
+    border: none;
+    padding: 7px;
+    margin-top: 5px;
+    display: flex;
+    width: 320px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.login form{
+  
+    width: 380px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 15px 25px ;
+    border: 2px solid rgba(0, 0, 0, 0.238);
+    background-color: #111416;
+}
+
+
+
+.login-a {
+    background-color: rgb(14, 14, 213);
+}
+.service-a{
+    background-color: rgb(255, 68, 0);
+}
+
+.login-form{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #11141695;
+   
+    
+}
+.blur{
+   
+    position: fixed;
+    height: 200%;
+    width: 100%;
+    background-image: url(img/Wh.jpg);
+    background-size: 100% 100%;
+    background-size: 100% 100%;
+    filter: blur(30px);
+    
+    top: -50px;
+    width: 100% !important;
+}
+
+ .login form {
+    padding-bottom: 5px;
+ }
+.login {
+     padding-top: 130px;
+}
+.login form label{
+    padding-top: 20px;
+}
+.login form input{
+    margin-top: 7px;
+    padding: 12px;
+}
+.login form span {
+ 
+    display: flex;
+    padding: 11px;
+}
+.login form span p{
+
+    font-size: 13px;
+    margin: 10px;
+    margin-top: 15px;
+    padding: 4px;
+    border-radius: 5px;
+    color: rgb(18, 89, 255);
+    cursor: pointer;
+}
+.login span p:hover{
+    color: blue;
+}
+
+.login form button{
+    padding: 9px;
+    margin-top: 20px;
+}
+.error{
+    font-size: 13px;
+    margin: auto;
+    text-align: center;
+    color: red;
+    margin-top: 10px;
+}
+
+.login-form{
+    transition: 0.3s !important;
+    display: none;
+
+}
+.blur {
+    transition: 0.3s !important;
+    display: none;
+}
+.x{
+     width: 20px;
+     font-size: 18px;
+     padding-right: 9px;
+     position: absolute;
+     cursor: pointer;
+     margin-top: -15px;
+     color: red;
+}
+.signup-form{
+    margin-top: 0 !important;
+    padding-top: 20px !important;
+}
+
+
+footer div img{
+    width: 90px;
+    height: 90px;
+}
+footer {
+    padding: 30px;
+}
+footer .fot{
+    display: flex;
+}
+footer .fot h1{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+footer{
+    display: flex;
+}
+footer div {
+    height: 300px;
+    margin: 8px;
+    padding: 10px;
+    border-right: 1px solid black;
+}
+.end{
+    border: none;
+}
+footer div h1{
+    width: 180px;
+    height: 90px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-bottom: 1px solid orangered;
+    text-align: center;
+}
+.abutes{
+  
+    display: flex;
+}
+.abutes a{
+    margin: 10px;
+}
+.abutes a i {
+    padding: 6px;
+  
+    color: rgb(3, 100, 3);
+    background-color: #0a0a0a;
+    font-size: 18px;
+}
+.navforphone{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 32px;
+    cursor: pointer;
+    display: none;
+    
+    margin-right: 10px;
+}
+
+.navphonehid {
+    position: absolute;
+    top: 50px;
+    background-color: #151515;
+    width: 110%;
+    margin: auto;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+
+}
+.video{
+    height: 400px;
+}
+.video video source{
+    width: 100% !important;
+}
+.navphonehid a{
+    display: flex;
+    text-decoration: none;
+    padding: 10px;
+    letter-spacing: 2px;
+    margin: 8px;
+}
+.addcomment form textarea{
+    text-align: right;
+}
+@media (max-width:990px){
+    body{
+        zoom: 1;
+    }
+    .navforphone{
+        display: unset;
+    }
+    header{
+        width: 100%;
+        background-color: #151515;
+       
+
+    }
+    header .nav{
+        display: none;
+    }
+    .logo img{
+        width: 50px;
+        height: 50px;
+        margin: auto;
+        display: flex;
+    }
+    .login{
+        margin-left: 10px;
+    }
+    .video{
+      
+        width: 90%;
+        
+    }
+    .who h3{
+        font-size: 14px;
+        text-align: center;
+        width: 90%;
+    }
+    .who h1{
+        font-size: 30px;
+        width: 110px;
+    }
+    .service{
+     
+        width: 90%;
+    }
+    
+    .service div{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .service div a{
+        
+        font-size: 15px;
+        width: 100%;
+        margin: 7px;
+    }
+    .myservice .hy{
+        
+        padding: 7px;
+        padding-top: 15px;
+        font-size: 30px;
+        width: 230px;
+    }
+    .showservice-s h1{
+        font-size: 25px;
+        width: 100px;
+    }
+    .showservice-s h3{
+        font-size: 14px;
+        text-align: center;
+        width: 90%;
+    }
+    .pro div {
+        width: 150px;
+    }
+    .pro div img {
+        width: 100%;
+        height: 99px;
+    }
+    .pro{
+        width: 100%;
+    }
+    .pro div {
+        margin: 7px;
+    }
+    .pip div {
+        width: 700px;
+    }
+    .pip div p {
+        font-size: 14px;
+    }
+    .pip {
+        overflow: scroll;
+    }
+    .addcomment{
+    
+        width: 100%;
+        margin-top: 50px;
+    }
+    .addcomment form{
+        width: 100%;
+        margin: auto;
+    }
+    .addcomment form button{
+        
+        padding: 9px;
+    }
+    .addcomment form input{
+        padding: 9px;
+    }
+    footer{
+        display: unset;
+    }
+    footer div h1{
+        border: none;
+        text-align: left;
+        padding: 0;
+        height: unset;
+        color: orangered;
+    }
+    footer div {
+         height: unset;
+    }
+    .abutes {
+        width: 100%;
+        justify-content: center;
+        margin: 10px;
+    }
+    .copyright{
+        text-align: center;
+    }
+    .blur{
+        filter: blur(10px);
+        
+    }
+    .login-form h2{
+        font-size: 25px;
+        width: 170px;
+    }
+    .login-form {
+   
+        width: 100%;
+        margin: auto;
+        padding: 0;
+    }
+    .login{
+        
+        padding: 0;
+        padding-top: 30px;
+        margin: auto;
+        width: 100%;
+    }
+    .login form{
+        width: 90%;
+        padding: 5px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .x {
+     
+        margin-top: -45px;
+    }
+
+    
+}
